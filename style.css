@@ -1,7 +1,8 @@
-*::selection{
+*::selection {
     background: rgb(255, 15, 163);
     color: white;
 }
+
 body {
     background: linear-gradient(to right, #6CDEFF, #ACFEEA, #FEE7D4, #FFB3C8);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,12 +33,192 @@ body {
     margin-top: 1rem;
     color: darkblue;
 }
-.theSkillThing{
+
+.theSkillThing {
     color: #d92d78;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 
 }
+
+.star {
+    position: absolute;
+    z-index: -100;
+}
+
+.star1 {
+    top: 20%;
+    left: 30%;
+    animation: star1 9s 2s infinite;
+
+}
+
+.star2 {
+    top: 55%;
+    left: 30%;
+    animation: star2 9s 2s infinite;
+
+}
+
+.star3 {
+    top: 40%;
+    left: 10%;
+}
+
+.star4 {
+    top: 17%;
+    left: 5%;
+    transform: tra
+}
+
+@keyframes star1 {
+    0% {
+        color: #d92d78;
+        top: 20%;
+        bottom: 30%;
+        transform: rotate(0deg);
+    }
+
+    20% {
+        color: #BA4028;
+        top: 35vh;
+        bottom: 20vh;
+        transform: rotate(180deg);
+    }
+
+    50% {
+        color: aqua;
+        top: 28vh;
+        bottom: 10vh;
+        transform: rotate(360deg);
+    }
+
+    60% {
+        color: chartreuse;
+        top: 30vh;
+        bottom: 23vh;
+        transform: rotate(180deg);
+    }
+
+    80% {
+        color: crimson;
+        top: 0vh;
+        bottom: 0vh;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes star2 {
+    0% {
+        color: #d92d78;
+        top: 55%;
+        left: 30%;
+        transform: rotate(0deg);
+    }
+
+    20% {
+        color: #BA4028;
+        top: 5vh;
+        bottom: 20vh;
+        transform: rotate(180deg);
+    }
+
+    50% {
+        color: aqua;
+        top: 28vh;
+        bottom: 14vh;
+        transform: rotate(360deg);
+    }
+
+    60% {
+        color: chartreuse;
+        top: 10vh;
+        bottom: 23vh;
+        transform: rotate(180deg);
+    }
+
+    80% {
+        color: crimson;
+        top: 0vh;
+        bottom: 9vh;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes star1 {
+    0% {
+        color: #d92d78;
+        top: 20%;
+        bottom: 30%;
+        transform: rotate(0deg);
+    }
+
+    20% {
+        color: #BA4028;
+        top: 35vh;
+        bottom: 20vh;
+        transform: rotate(180deg);
+    }
+
+    50% {
+        color: aqua;
+        top: 28vh;
+        bottom: 10vh;
+        transform: rotate(360deg);
+    }
+
+    60% {
+        color: chartreuse;
+        top: 30vh;
+        bottom: 23vh;
+        transform: rotate(180deg);
+    }
+
+    80% {
+        color: crimson;
+        top: 0vh;
+        bottom: 0vh;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes star1 {
+    0% {
+        color: #d92d78;
+        top: 20%;
+        bottom: 30%;
+        transform: rotate(0deg);
+    }
+
+    20% {
+        color: #BA4028;
+        top: 35vh;
+        bottom: 20vh;
+        transform: rotate(180deg);
+    }
+
+    50% {
+        color: aqua;
+        top: 28vh;
+        bottom: 10vh;
+        transform: rotate(360deg);
+    }
+
+    60% {
+        color: chartreuse;
+        top: 30vh;
+        bottom: 23vh;
+        transform: rotate(180deg);
+    }
+
+    80% {
+        color: crimson;
+        top: 0vh;
+        bottom: 0vh;
+        transform: rotate(0deg);
+    }
+}
+
 .hover {
     font-size: 5rem;
     opacity: 0.6;
@@ -45,13 +226,15 @@ body {
     margin-left: 1rem;
     transition: all 0.2s ease-in-out;
 }
-.theHr{
+
+.theHr {
     color: rgba(173, 162, 162, 0);
-    width:100%;
+    width: 100%;
     border: 1px solid orangered;
     box-shadow: 0px 0px 5px crimson;
 }
-.hover:hover{
+
+.hover:hover {
     transform: scale(1.2);
     opacity: 1;
 }
@@ -75,33 +258,42 @@ body {
 .github:hover {
     color: black;
 }
-.node:hover{
+
+.node:hover {
     color: rgb(30, 204, 30);
 }
-.html:hover{
+
+.html:hover {
     color: orange;
 }
-.css:hover{
+
+.css:hover {
     color: rgb(0, 132, 255);
 }
-.js:hover{
+
+.js:hover {
     color: rgb(255, 196, 1);
 }
-.socialMedia{
+
+.socialMedia {
     font-size: 1.5rem;
     margin-top: 1rem;
 }
-.theSocialMedia{
-color: coral;
-margin-bottom: 1rem;
-padding-bottom: 1rem;
+
+.theSocialMedia {
+    color: coral;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
-.codepen{
+
+.codepen {
     color: black;
 }
-.codepen:hover{
+
+.codepen:hover {
     color: black;
 }
-div.container-flex:nth-child(2){
+
+div.container-flex:nth-child(2) {
     margin-top: 1rem;
 }
