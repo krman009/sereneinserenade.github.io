@@ -25,7 +25,7 @@ body {
 .firstname {
     font-size: 2rem;
     color: crimson;
-    margin-top: 17vh;
+    margin-top: 17%;
 }
 
 .name {
@@ -49,26 +49,27 @@ body {
 .star1 {
     top: 20%;
     left: 30%;
-    animation: star1 9s 2s infinite;
+    animation: star1 6s  infinite;
 
 }
 
 .star2 {
     top: 55%;
     left: 30%;
-    animation: star2 9s 2s infinite;
+    animation: star2 9s 1s infinite;
 
 }
 
 .star3 {
     top: 40%;
     left: 10%;
+    animation: star1 13s 3s infinite;
 }
 
 .star4 {
     top: 17%;
     left: 5%;
-    transform: tra
+    animation: star2 19s  infinite;
 }
 
 @keyframes star1 {
@@ -81,29 +82,29 @@ body {
 
     20% {
         color: #BA4028;
-        top: 35vh;
-        bottom: 20vh;
+        top: 35%;
+        bottom: 20%;
         transform: rotate(180deg);
     }
 
     50% {
         color: aqua;
-        top: 28vh;
-        bottom: 10vh;
+        top: 28%;
+        bottom: 10%;
         transform: rotate(360deg);
     }
 
     60% {
         color: chartreuse;
-        top: 30vh;
-        bottom: 23vh;
+        top: 30%;
+        bottom: 23%;
         transform: rotate(180deg);
     }
 
     80% {
         color: crimson;
-        top: 0vh;
-        bottom: 0vh;
+        top: 0%;
+        bottom: 0%;
         transform: rotate(0deg);
     }
 }
@@ -111,36 +112,36 @@ body {
 @keyframes star2 {
     0% {
         color: #d92d78;
-        top: 55%;
+        top: 35%;
         left: 30%;
         transform: rotate(0deg);
     }
 
     20% {
         color: #BA4028;
-        top: 5vh;
-        bottom: 20vh;
+        top: 35%;
+        bottom: 20%;
         transform: rotate(180deg);
     }
 
     50% {
         color: aqua;
-        top: 28vh;
-        bottom: 14vh;
+        top: 28%;
+        bottom: 14%;
         transform: rotate(360deg);
     }
 
     60% {
         color: chartreuse;
-        top: 10vh;
-        bottom: 23vh;
+        top: 10%;
+        bottom: 23%;
         transform: rotate(180deg);
     }
 
     80% {
         color: crimson;
-        top: 0vh;
-        bottom: 9vh;
+        top: 0%;
+        bottom: 9%;
         transform: rotate(0deg);
     }
 }
@@ -155,29 +156,29 @@ body {
 
     20% {
         color: #BA4028;
-        top: 35vh;
-        bottom: 20vh;
+        top: 35%;
+        bottom: 20%;
         transform: rotate(180deg);
     }
 
     50% {
         color: aqua;
-        top: 28vh;
-        bottom: 10vh;
+        top: 28%;
+        bottom: 10%;
         transform: rotate(360deg);
     }
 
     60% {
         color: chartreuse;
-        top: 30vh;
-        bottom: 23vh;
+        top: 30%;
+        bottom: 23%;
         transform: rotate(180deg);
     }
 
     80% {
         color: crimson;
-        top: 0vh;
-        bottom: 0vh;
+        top: 0%;
+        bottom: 0%;
         transform: rotate(0deg);
     }
 }
@@ -192,29 +193,29 @@ body {
 
     20% {
         color: #BA4028;
-        top: 35vh;
-        bottom: 20vh;
+        top: 35%;
+        bottom: 20%;
         transform: rotate(180deg);
     }
 
     50% {
         color: aqua;
-        top: 28vh;
-        bottom: 10vh;
+        top: 28%;
+        bottom: 10%;
         transform: rotate(360deg);
     }
 
     60% {
         color: chartreuse;
-        top: 30vh;
-        bottom: 23vh;
+        top: 30%;
+        bottom: 23%;
         transform: rotate(180deg);
     }
 
     80% {
         color: crimson;
-        top: 0vh;
-        bottom: 0vh;
+        top: 0%;
+        bottom: 0%;
         transform: rotate(0deg);
     }
 }
