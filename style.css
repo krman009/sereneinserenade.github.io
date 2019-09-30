@@ -7,8 +7,14 @@ body {
     user-select: none;
     
 }
+
+.rotTex{
+    transform: rotate(90deg);
+    display: block;
+}
 img {
     border-radius: 15px;
+    height: 550px;
 }
 
 .head {
