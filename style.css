@@ -1,300 +1,72 @@
-*::selection {
-    background: rgb(255, 15, 163);
-    color: white;
-}
-
 body {
-    background: linear-gradient(to right, #6CDEFF, #ACFEEA, #FEE7D4, #FFB3C8);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.container-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-.things {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    top: 10%;
-}
-
-.firstname {
-    font-size: 2rem;
-    color: crimson;
-    margin-top: 17%;
-}
-
-.name {
-    font-size: 2.3rem;
-    margin-top: 1rem;
-    color: darkblue;
-}
-
-.theSkillThing {
-    color: #d92d78;
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-
-}
-
-.star {
-    position: absolute;
-    z-index: -100;
-}
-
-.star1 {
-    top: 20%;
-    left: 30%;
-    animation: star1 6s  infinite;
-
-}
-
-.star2 {
-    top: 55%;
-    left: 30%;
-    animation: star2 9s 1s infinite;
-
-}
-
-.star3 {
-    top: 40%;
-    left: 10%;
-    animation: star1 13s 3s infinite;
-}
-
-.star4 {
-    top: 17%;
-    left: 5%;
-    animation: star2 19s  infinite;
-}
-
-@keyframes star1 {
-    0% {
-        color: #d92d78;
-        top: 20%;
-        bottom: 30%;
-        transform: rotate(0deg);
-    }
-
-    20% {
-        color: #BA4028;
-        top: 35%;
-        bottom: 20%;
-        transform: rotate(180deg);
-    }
-
-    50% {
-        color: aqua;
-        top: 28%;
-        bottom: 10%;
-        transform: rotate(360deg);
-    }
-
-    60% {
-        color: chartreuse;
-        top: 30%;
-        bottom: 23%;
-        transform: rotate(180deg);
-    }
-
-    80% {
-        color: crimson;
-        top: 0%;
-        bottom: 0%;
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes star2 {
-    0% {
-        color: #d92d78;
-        top: 35%;
-        left: 30%;
-        transform: rotate(0deg);
-    }
-
-    20% {
-        color: #BA4028;
-        top: 35%;
-        bottom: 20%;
-        transform: rotate(180deg);
-    }
-
-    50% {
-        color: aqua;
-        top: 28%;
-        bottom: 14%;
-        transform: rotate(360deg);
-    }
-
-    60% {
-        color: chartreuse;
-        top: 10%;
-        bottom: 23%;
-        transform: rotate(180deg);
-    }
-
-    80% {
-        color: crimson;
-        top: 0%;
-        bottom: 9%;
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes star1 {
-    0% {
-        color: #d92d78;
-        top: 20%;
-        bottom: 30%;
-        transform: rotate(0deg);
-    }
-
-    20% {
-        color: #BA4028;
-        top: 35%;
-        bottom: 20%;
-        transform: rotate(180deg);
-    }
-
-    50% {
-        color: aqua;
-        top: 28%;
-        bottom: 10%;
-        transform: rotate(360deg);
-    }
-
-    60% {
-        color: chartreuse;
-        top: 30%;
-        bottom: 23%;
-        transform: rotate(180deg);
-    }
-
-    80% {
-        color: crimson;
-        top: 0%;
-        bottom: 0%;
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes star1 {
-    0% {
-        color: #d92d78;
-        top: 20%;
-        bottom: 30%;
-        transform: rotate(0deg);
-    }
-
-    20% {
-        color: #BA4028;
-        top: 35%;
-        bottom: 20%;
-        transform: rotate(180deg);
-    }
-
-    50% {
-        color: aqua;
-        top: 28%;
-        bottom: 10%;
-        transform: rotate(360deg);
-    }
-
-    60% {
-        color: chartreuse;
-        top: 30%;
-        bottom: 23%;
-        transform: rotate(180deg);
-    }
-
-    80% {
-        color: crimson;
-        top: 0%;
-        bottom: 0%;
-        transform: rotate(0deg);
-    }
-}
-
-.hover {
-    font-size: 5rem;
-    opacity: 0.6;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    transition: all 0.2s ease-in-out;
-}
-
-.theHr {
-    color: rgba(173, 162, 162, 0);
-    width: 100%;
-    border: 1px solid orangered;
-    box-shadow: 0px 0px 5px crimson;
-}
-
-.hover:hover {
-    transform: scale(1.2);
-    opacity: 1;
-}
-
-.linkedin:hover i {
-    color: #0077B5;
-}
-
-.facebook:hover i {
-    color: #4267B2;
-}
-
-.instagram:hover i {
-    color: #d92d78;
-}
-
-.gmail:hover {
-    color: #BA4028;
-}
-
-.github:hover {
-    color: black;
-}
-
-.node:hover {
-    color: rgb(30, 204, 30);
-}
-
-.html:hover {
-    color: orange;
-}
-
-.css:hover {
-    color: rgb(0, 132, 255);
-}
-
-.js:hover {
-    color: rgb(255, 196, 1);
-}
-
-.socialMedia {
+    background: #202020;
+    color: white;
     font-size: 1.5rem;
-    margin-top: 1rem;
+}
+*::selection{
+    user-select: none;
+    
+}
+img {
+    border-radius: 15px;
 }
 
-.theSocialMedia {
-    color: coral;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
+.head {
+    font-size: 2rem;
 }
 
-.codepen {
-    color: black;
+.nvisio{
+    display: none;
 }
 
-.codepen:hover {
-    color: black;
+
+/* my row styles */
+.rowthing {
+    height: 50vh;
 }
 
-div.container-flex:nth-child(2) {
-    margin-top: 1rem;
+.fake {
+    color: #20202000;
+}
+
+.gros {
+    font-family: 'Source Code Pro', monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+}
+
+.data1{
+    padding-left: 3%;
+    padding-right: 3rem;
+}
+
+
+
+.bar {
+    height: 94vh;
+    width: 2rem;
+    background: white;
+    margin: auto;
+    color: #202020;
+    align-content: center;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 15px;
+    line-height: 5.5rem;
+    font-size: 2rem;
+}
+
+
+.textor{
+    transform: rotate(-90deg);
+    color: #202020;
+}
+
+/* scrollbar style */
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+    background: #202020;
 }
