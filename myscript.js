@@ -3,7 +3,6 @@ $(document).ready(function () {
 
 
 
-
     var pinstep1 = new ScrollMagic.Scene({
             triggerElement: '.step1',
             triggerHook: 0.03,
@@ -98,5 +97,7 @@ $(document).ready(function () {
         })
         .setPin('.bar')
         .addTo(controller);
+
+
 
 });
