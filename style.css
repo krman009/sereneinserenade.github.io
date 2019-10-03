@@ -5,9 +5,9 @@ body {
     font-size: 1.5rem;
 }
 
-*::selection {
-    user-select: none;
-
+*::selection{
+    background: white;
+    color: black;
 }
 
 .rotTex {
