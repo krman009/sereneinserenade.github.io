@@ -28,6 +28,13 @@ img {
     display: none;
 }
 
+.img-caption {
+    margin-top: 0.54rem;
+}
+
+.col-3 .far.fa-clock {
+    color: gray;
+}
 
 /* my row styles */
 .rowthing {
@@ -35,11 +42,15 @@ img {
 }
 
 .fake {
-    color: #20202000;
+    color: #202020;
 }
 
 .gros {
     font-size: 1.5rem;
+}
+
+.img-caption, .gros .value {
+    color: rgb(255, 187, 14);
 }
 
 .data1 {
@@ -47,21 +58,18 @@ img {
     padding-right: 3rem;
 }
 
-
-
 .bar {
     height: 94vh;
-    width: 2rem;
+    width: 2.15rem;
     margin: auto;
-    color: #202020;
-    align-content: center;
+    color: rgb(255, 187, 14);
     text-align: center;
-    vertical-align: center;
     border-radius: 15px;
-    line-height: 5.5rem;
-    font-size: 2rem;
+    line-height: 4.79rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 1px 0px rgba(255, 187, 14, 0.7)
 }
-
 
 .textor {
     transform: rotate(-90deg);
